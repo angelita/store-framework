@@ -8,7 +8,10 @@
       "flex-layout.col",
       "shelf",
       "slider-layout#home",
-      "responsive-layout"
+      "responsive-layout",
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
+
     ]
   },
   "rich-text": {
@@ -88,7 +91,7 @@
   },
   
   "responsive-layout.mobile#mobile": {
-    "children": ["rich-text#mobile"]
+    "children": ["rich-text#mobile", "image#mobile"]
   },
   
   "rich-text#desktop": {
