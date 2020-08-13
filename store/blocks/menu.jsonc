@@ -11,16 +11,35 @@
       }
    },
 
-   "vtex.menu@2.x:submenu#major":{
-    "children":[
-      "vtex.menu@2.x:menu#major"
-    ]
-  },
+   "menu-item#major-appliances":{
+       "children":[
+        "vtex.menu@2.x:submenu#major" 
+       ]
 
-  "vtex.menu@2.x:submenu#small":{
-    "children":[
-      "vtex.menu@2.x:menu#small"
-    ]
-  }
+   },
+
+   "menu-item#minor-appliances":{
+      "children":[
+        "vtex.menu@2.x:submenu#minor" 
+      ]
+    },
+
+    "menu-item#electronics":{
+        "children":[
+          "vtex.menu@2.x:submenu#electronics" 
+        ]
+      },
+
+   "vtex.menu@2.x:submenu#major":{
+      "children":[
+        "vtex.menu@2.x:menu#major"
+      ]
+    },
+
+   "vtex.menu@2.x:submenu#small":{
+      "children":[
+        "vtex.menu@2.x:menu#small"
+      ]
+    }
 
 }
