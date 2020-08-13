@@ -8,7 +8,8 @@
 
     "image#landingbanner":{
         "props":{
-            "minWidth":"100%"
+            "minWidth":"100%",
+            "src": "https://instagram.flis8-1.fna.fbcdn.net/v/t51.2885-15/e15/s320x320/103409980_259061302107075_3219208656461608122_n.jpg?_nc_ht=instagram.flis8-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=YfGbN5IFlesAX_qYoPh&oh=37e1659c8c5c3c33a10acc785160e5a3&oe=5F59F51A"
         }
     },
     
@@ -19,10 +20,7 @@
                 "hideUnavailableItems": true,
                 "maxItemsPerPage": 8,
                 "queyField": "Blue Top Retro Camera"
-
             }
         }
     }
-
-
   }
